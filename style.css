@@ -1057,6 +1057,16 @@ video{
     display: none;
 }
 
+#view{
+    display: none;
+}
+
+.element-responsive{
+    display: block;
+}
+
+
+
 @media (max-width: 640px){
     .discount {
         display: flex;
@@ -1139,14 +1149,103 @@ video{
     }
 
     .circle p{
-        font-size: 4vw;
+        font-size: 3.5vw;
         text-align: center;
         margin-left: 2vw;
         color: black;
     }
     
-    .element{
-        /* margin-top: 25vw; */
+   
+
+    .ele-menu{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 30vw;
+        margin-bottom: 5vw;
     }
 
+    .ele-menu button{
+        font-size: 3vw;
+        padding: 2vw 3vw;
+        color: white;
+        margin-top: 2vw;
+        background-color: rgb(206, 52, 52);
+        border: none;
+    }
+
+    .element h3{
+        font-size: 5vw;
+    }
+
+    #view{
+        display: block;
+    }
+
+    .element{
+        display: none;
+    }
+
+    .element-responsive{
+        display: block;
+        
+    }
+
+    .elems{
+         overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    .element-responsive{
+        /* padding: 3vw 5vw; */
+
+    }
+    
+    .elem-responsive{
+        height: 40vw;
+        margin: 10px;
+        width: 40vw;
+        /* margin-right: 5vw; */
+    }
+
+    .elem-responsive a{
+        text-decoration: none;
+        color: black;
+        font-size: 3.5vw;
+        font-weight: 400;
+        margin-top: 2vw     ;
+        font-family: "roboto";
+    }
+
+    .elem-responsive img{
+        height: 50vw;
+        width: 50vw;
+    }
+    
+    .elem-responsive img:hover{
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .r-top{
+        font-size: 3vw;
+        /* margin-top: 5vw; */
+    }
+
+    .top-left{
+        margin-top: 2vw;
+    }
+
+    .top-right button{
+        padding: 2vw 3vw;
+        font-size: 3vw;
+        font-weight: 400;
+        margin-left: 5vw;
+    }
+
+    
+
+
 }
+
